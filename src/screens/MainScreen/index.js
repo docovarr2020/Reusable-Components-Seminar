@@ -22,7 +22,7 @@ class MainScreen extends Component {
     return (
       <View style={styles.background}>
         <ScrollView contentContainerStyle={styles.container}>
-          <BaseForm
+          <FinalForm
             containerStyle={styles.formContainer}
             buttonStyle={styles.submit}
             buttonText={'Submit'}
@@ -64,7 +64,7 @@ class MainScreen extends Component {
               inputStyle={styles.formInput}
               secureTextEntry
             />
-          </BaseForm>
+          </FinalForm>
         </ScrollView>
       </View>
     )
